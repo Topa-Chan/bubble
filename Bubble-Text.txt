@@ -1,0 +1,23 @@
+Site for Sore Eyes: 
+	Boba Site
+
+	Nav/Pages:
+
+		Home
+		Menu - Sub Pages
+		Location
+		Contact
+		About
+
+	Location:
+
+		Quickly, West Valley
+		3521 W 3500 S, West Valley City, UT 84119
+		
+	
+	Pages:
+		Index - Topanga
+		Contact - Bob
+		About - Topanga
+		Menu - 
+		Location - 
