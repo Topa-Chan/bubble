@@ -19,5 +19,28 @@ Site for Sore Eyes:
 		Index - Topanga
 		Contact - Bob
 		About - Topanga
-		Menu - 
-		Location - 
+		Menu - Topanga
+		Location - Bob
+
+	Menu:
+		Sub-Pages:
+			Bubble Tea
+				Menu: 
+					 
+			Slushes
+				Menu:
+					
+			Hot Drinks
+				Menu:
+					
+			Bubbles
+				Menu:
+					Popping Bubbles: (*Insert Flavours)
+					Normal Bubbles:
+			Snacks
+				Menu:
+					
+		JSON:
+			pagination for sub-pages with roll-over hint (like in tbeatty.com) <- Tooltips on w3Schools
+			headings 
+			menu system
