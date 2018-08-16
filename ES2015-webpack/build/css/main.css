@@ -44,3 +44,25 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0; }
+
+/*# sourceMappingURL=main.css.map */
+
+/* CSS for Google Maps */
+#map_box {
+  height: 500px;
+  width: 500px;
+}
+
+#map {
+  height: 100%;
+}
+
+/* CSS for Contact Page */
+#fName, #email {
+  width: 250px;
+}
+
+#msg {
+  height: 200px;
+  width: 500px;
+}
