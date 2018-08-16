@@ -1,3 +1,9 @@
+import{ initMap, handleLocationError, calculateAndDisplayRoute } from "./map_module";
+
+module.exports = {
+    initMap, handleLocationError, calculateAndDisplayRoute
+}
+
 var sitemapContainer = document.getElementById("sitemap");
 var sitemap_ul = document.createElement("ul");
 sitemapContainer.appendChild(sitemap_ul);
@@ -34,8 +40,3 @@ function createSiteMap() {
   }
 }
 
-import{ initMap, handleLocationError, calculateAndDisplayRoute } from "./map_module";
-
-module.exports = {
-    initMap, handleLocationError, calculateAndDisplayRoute
-}
