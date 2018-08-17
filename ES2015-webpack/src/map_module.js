@@ -4,7 +4,7 @@ window.initMap = function() {
     var directionsService = new google.maps.DirectionsService;
     var directionsDisplay = new google.maps.DirectionsRenderer;
     var slc = new google.maps.LatLng(40.7608, -111.8910);
-    qkly = new google.maps.LatLng(40.695170, -111.975158);
+    qkly = new google.maps.LatLng(40.695170, -111.975150);
 
     map = new google.maps.Map(document.getElementById('map'), {
         zoom: 11,

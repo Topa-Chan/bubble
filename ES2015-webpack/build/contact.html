@@ -1,28 +1,48 @@
 <!-- Bob -->
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href='css/main.css' rel='stylesheet' />
-    <title>Contact</title>
-  </head>
-  <body>
-    <!-- NavBar Stuff? -->
-  <form>
-		Full Name:<br>
-		<input id="fName" type="text" name="fullName" value="">
-		<br>
-		Email Address:<br>
-		<input id="email" type="text" name="emailAddress" value="">
-		<br>
-		Message:<br>
-		<input id="msg" type="text" name="txtMsg" value="">
-		<br><br>
-		<input type="submit" value="Submit">
-	</form>
-	
-    <script src="main.bundle.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href='css/main.css' rel='stylesheet' />
+  <title>Contact</title>
+</head>
+
+<body>
+  <!-- NavBar Stuff? -->
+  <h1 id="m_lft_top">Contact Us</h1>
+  <div id="contact_body">
+    <div id="msg-form">
+      <form id="bold">
+        Full Name:
+        <br>
+        <input id="fName" type="text" name="fullName" value="">
+        <br> Email Address:
+        <br>
+        <input id="email" type="text" name="emailAddress" value="">
+        <br> Message:
+        <br>
+        <textarea id="msg" type="text" name="txtMsg" value=""></textarea>
+        <br>
+        <br>
+        <input id="btn" type="submit" value="Submit">
+      </form>
+    </div>
+
+    <div id="contact_info">
+      <p id="bold">Phone Number:</p>
+      <p>(385) 274-4938</p>
+      <p id="bold">Address:</p>
+      <p>3521 W 3500 S</p>
+      <p>West Valley City, UT 84119</p>
+      <p id="bold">Business Hours:</p>
+      <p>Most Days: 11:00AM - 11:00PM</p>
+    </div>
+  </div>
+  <!-- Footer Stuff? -->
+  <script src="main.bundle.js"></script>
+</body>
+
 </html>

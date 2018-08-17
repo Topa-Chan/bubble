@@ -47,6 +47,22 @@ table {
 
 /*# sourceMappingURL=main.css.map */
 
+/* Helpful Ids */
+#m_lft_top {
+  margin-left: 2%;
+  margin-top: 2%;
+}
+
+#bold {
+	font-weight: bold;
+}
+
+/* Placeholder. Replace if there's already a Header Tag you would prefer to use. */
+h1 {
+	font-size: 28px;
+	font-weight: bold;
+}
+
 /* CSS for Google Maps */
 #map_box {
   height: 500px;
@@ -58,6 +74,20 @@ table {
 }
 
 /* CSS for Contact Page */
+#contact_body{
+	display: flex;
+	flex-direction: row;
+}
+
+#contact_body p {
+	margin-top: 20px;
+	margin-left: 200px;
+}
+
+#fName, #email, #msg {
+	margin-bottom: 20px;
+}
+
 #fName, #email {
   width: 250px;
 }
@@ -66,3 +96,30 @@ table {
   height: 200px;
   width: 500px;
 }
+
+#msg-form {
+  margin-left: 2%;
+  margin-top: 2%;
+}
+
+#btn {
+  background-color: white;
+  color: #009FE3;
+  border: 2px solid #009FE3;
+  border-radius: 5px;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+#btn:hover {
+  background-color: #009FE3;
+  color: white;
+}
+
