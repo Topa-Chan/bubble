@@ -69,8 +69,17 @@ h1 {
   width: 500px;
 }
 
+.map_body h1{
+  margin-bottom: 20px;
+}
+
 #map {
   height: 100%;
+}
+
+#map_deats p {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 /* CSS for Contact Page */
