@@ -44,3 +44,9 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0; }
+
+ul {
+  list-style-image: url("images/bubbleIcon.ico"); }
+
+a {
+  text-decoration: none; }

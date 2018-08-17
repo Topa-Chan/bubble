@@ -2,27 +2,27 @@
   "pages": [
     {
       "title": "home",
-      "href": "./build/index.html",
+      "href": "/",
       "url": "/"
     },
     {
       "title": "about",
-      "href": "./build/about.html",
+      "href": "about.html",
       "url": "/about"
     },
     {
       "title": "menu",
-      "href": "./build/menu.html",
+      "href": "menu.html",
       "url": "/menu"
     },
     {
       "title": "location",
-      "href": "./build/location.html",
+      "href": "location.html",
       "url": "/location"
     },
     {
       "title": "contact",
-      "href": "./build/contact.html",
+      "href": "contact.html",
       "url": "/contact"
     }
   ]

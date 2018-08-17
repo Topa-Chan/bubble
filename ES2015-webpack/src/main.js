@@ -31,6 +31,11 @@ function createSiteMap() {
   for (var i = 0; i < sitemapData.pages.length; i++) {
     var li = document.createElement("li");
     var link = document.createElement("a");
+    link.textContent = sitemapData.pages[i].title;
+    link.href = sitemapData.pages[i].href;
+    li.appendChild(link);
+    sitemap_ul.appendChild(li);
   }
+  sitemapContainer.appendChild(sitemap_ul);
 }
 
