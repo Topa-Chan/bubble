@@ -53,6 +53,10 @@ table {
   margin-top: 2%;
 }
 
+.center-txt{
+  text-align: center;
+}
+
 #bold {
 	font-weight: bold;
 }
@@ -79,7 +83,7 @@ h1 {
 
 #map_deats p {
   margin-top: 10px;
-  margin-bottom: 10px;
+
 }
 
 /* CSS for Contact Page */
@@ -132,3 +136,39 @@ h1 {
   color: white;
 }
 
+@media all and (max-width: 550px){
+
+  #map_box{
+    height: 350px;
+    width: 350px;
+    margin: auto;
+  }
+
+  #map_deats p {
+    margin-top: 30px;
+  }
+
+  #contact_body{
+    flex-direction: column-reverse;
+    margin-left: 8%;
+  }
+
+  #contact_body p{
+    margin-left: 2%;
+    margin-bottom: 20px;
+  }
+
+  #fName, #email, #msg {
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  
+  #fName, #email, #msg {
+    width: 80%;
+  }
+
+  #btn {
+    padding: 20px 29%;
+    margin-left: 5%;
+  }
+}
